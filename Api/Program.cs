@@ -1,9 +1,14 @@
+using Microsoft.AspNetCore.Builder;
 
 var builder = WebApplication.CreateBuilder(args);
 
 //builder.Services.AddDbContext<>();
 
-builder.Services.Controllers()
+builder.Services.AddSwaggerGen
+
+builder.Services.Controllers().AddNewtonsoftJson{
+
+}
 
 var app = builder.Build();
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mihai\\source\\repos\\HospitalManager\\Api\\Api.csproj": {}
+    "C:\\Users\\mihai\\source\\repos\\HospitalManager\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mihai\\source\\repos\\HospitalManager\\Api\\Api.csproj": {
+    "C:\\Users\\mihai\\source\\repos\\HospitalManager\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mihai\\source\\repos\\HospitalManager\\Api\\Api.csproj",
-        "projectName": "Api",
-        "projectPath": "C:\\Users\\mihai\\source\\repos\\HospitalManager\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\mihai\\source\\repos\\HospitalManager\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectName": "WebApplication1",
+        "projectPath": "C:\\Users\\mihai\\source\\repos\\HospitalManager\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\mihai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mihai\\source\\repos\\HospitalManager\\Api\\obj\\",
+        "outputPath": "C:\\Users\\mihai\\source\\repos\\HospitalManager\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mihai\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,14 +40,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
